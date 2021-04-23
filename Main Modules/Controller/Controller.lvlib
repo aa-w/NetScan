@@ -46,7 +46,8 @@
 	</Item>
 	<Item Name="Public VIs" Type="Folder">
 		<Item Name="ProcessResults.vi" Type="VI" URL="../Private VIs/ProcessResults.vi"/>
+		<Item Name="SearchNetwork.vi" Type="VI" URL="../API/SearchNetwork.vi"/>
+		<Item Name="ShowOnlyMatches.vi" Type="VI" URL="../Private VIs/ShowOnlyMatches.vi"/>
 	</Item>
 	<Item Name="Controller Top Level.vi" Type="VI" URL="../Controller Top Level.vi"/>
-	<Item Name="SearchNetwork.vi" Type="VI" URL="../API/SearchNetwork.vi"/>
 </Library>

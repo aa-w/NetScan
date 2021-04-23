@@ -14,10 +14,12 @@
 		<Item Name="CountCall.vi" Type="VI" URL="../API/CountCall.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../API/Init.vi"/>
 		<Item Name="Pause.vi" Type="VI" URL="../API/Pause.vi"/>
+		<Item Name="Search.vi" Type="VI" URL="../API/Search.vi"/>
 		<Item Name="Set IP.vi" Type="VI" URL="../API/Set IP.vi"/>
 		<Item Name="Setup.vi" Type="VI" URL="../API/Setup.vi"/>
 		<Item Name="Start.vi" Type="VI" URL="../API/Start.vi"/>
 		<Item Name="Stop.vi" Type="VI" URL="../API/Stop.vi"/>
+		<Item Name="Update UI.vi" Type="VI" URL="../API/Update UI.vi"/>
 		<Item Name="Wait.vi" Type="VI" URL="../API/Wait.vi"/>
 	</Item>
 	<Item Name="Module Support VIs" Type="Folder">
@@ -33,6 +35,8 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Element.ctl" Type="VI" URL="../Private Controls/Element.ctl"/>
 		<Item Name="Module Action.ctl" Type="VI" URL="../Private Controls/Module Action.ctl"/>
+		<Item Name="TabTools.ctl" Type="VI" URL="../Private Controls/TabTools.ctl"/>
+		<Item Name="UI Action.ctl" Type="VI" URL="../Private Controls/UI Action.ctl"/>
 	</Item>
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -46,7 +50,7 @@
 	<Item Name="Public VIs" Type="Folder">
 		<Item Name="Two Button Dialog.vi" Type="VI" URL="../Public Controls/Two Button Dialog.vi"/>
 	</Item>
+	<Item Name="IP Stats.ctl" Type="VI" URL="../../Controller/Public Controls/IP Stats.ctl"/>
 	<Item Name="Post Responses.vi" Type="VI" URL="../API/Post Responses.vi"/>
-	<Item Name="Search.vi" Type="VI" URL="../API/Search.vi"/>
 	<Item Name="UI Top Level.vi" Type="VI" URL="../UI Top Level.vi"/>
 </Library>
