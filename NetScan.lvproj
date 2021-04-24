@@ -19,7 +19,6 @@
 		</Item>
 		<Item Name="Project Support" Type="Folder">
 			<Item Name="Architecture Support.lvlib" Type="Library" URL="../Architecture Support/Architecture Support.lvlib"/>
-			<Item Name="SerialScan.vi" Type="VI" URL="../../SerialScan/SerialScan.vi"/>
 			<Item Name="Useful VIs.lvlib" Type="Library" URL="../../SerialScan/Architecture Support/Useful VIs.lvlib"/>
 		</Item>
 		<Item Name="Launcher (Top Level).vi" Type="VI" URL="../Launcher (Top Level).vi"/>
@@ -58,10 +57,6 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 		</Item>

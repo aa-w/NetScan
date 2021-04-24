@@ -11,10 +11,16 @@
 		<Item Name="API.vi" Type="VI" URL="../API/API.vi"/>
 		<Item Name="Close.vi" Type="VI" URL="../API/Close.vi"/>
 		<Item Name="Connect.vi" Type="VI" URL="../API/Connect.vi"/>
+		<Item Name="Get UI Refs.vi" Type="VI" URL="../API/Get UI Refs.vi"/>
 		<Item Name="GetLocalIP.vi" Type="VI" URL="../API/GetLocalIP.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../API/Init.vi"/>
 		<Item Name="Pause.vi" Type="VI" URL="../API/Pause.vi"/>
+		<Item Name="Process Results.vi" Type="VI" URL="../API/Process Results.vi"/>
+		<Item Name="ProcessResults.vi" Type="VI" URL="../Private VIs/ProcessResults.vi"/>
+		<Item Name="SearchNetwork.vi" Type="VI" URL="../API/SearchNetwork.vi"/>
 		<Item Name="Setup.vi" Type="VI" URL="../API/Setup.vi"/>
+		<Item Name="Show Full.vi" Type="VI" URL="../API/Show Full.vi"/>
+		<Item Name="Show Match.vi" Type="VI" URL="../API/Show Match.vi"/>
 		<Item Name="Start.vi" Type="VI" URL="../API/Start.vi"/>
 		<Item Name="Stop.vi" Type="VI" URL="../API/Stop.vi"/>
 		<Item Name="Wait.vi" Type="VI" URL="../API/Wait.vi"/>
@@ -36,7 +42,10 @@
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="CallAddresses.vi" Type="VI" URL="../Private VIs/CallAddresses.vi"/>
+		<Item Name="CheckWithinBounds.vi" Type="VI" URL="../Private VIs/CheckWithinBounds.vi"/>
+		<Item Name="Clear Queue.vi" Type="VI" URL="../Module Support/Clear Queue.vi"/>
 		<Item Name="Flush Queue.vi" Type="VI" URL="../Private VIs/Flush Queue.vi"/>
+		<Item Name="Generate IPs.vi" Type="VI" URL="../Private VIs/Generate IPs.vi"/>
 		<Item Name="Get Local IP.vi" Type="VI" URL="../Private VIs/Get Local IP.vi"/>
 		<Item Name="PingIP.vi" Type="VI" URL="../Private VIs/PingIP.vi"/>
 	</Item>
@@ -45,8 +54,7 @@
 		<Item Name="Module Data Cluster.ctl" Type="VI" URL="../Public Controls/Module Data Cluster.ctl"/>
 	</Item>
 	<Item Name="Public VIs" Type="Folder">
-		<Item Name="ProcessResults.vi" Type="VI" URL="../Private VIs/ProcessResults.vi"/>
-		<Item Name="SearchNetwork.vi" Type="VI" URL="../API/SearchNetwork.vi"/>
+		<Item Name="CheckState.vi" Type="VI" URL="../Private VIs/CheckState.vi"/>
 		<Item Name="ShowOnlyMatches.vi" Type="VI" URL="../Private VIs/ShowOnlyMatches.vi"/>
 	</Item>
 	<Item Name="Controller Top Level.vi" Type="VI" URL="../Controller Top Level.vi"/>

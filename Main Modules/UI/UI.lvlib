@@ -14,11 +14,13 @@
 		<Item Name="CountCall.vi" Type="VI" URL="../API/CountCall.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../API/Init.vi"/>
 		<Item Name="Pause.vi" Type="VI" URL="../API/Pause.vi"/>
+		<Item Name="Post Responses.vi" Type="VI" URL="../API/Post Responses.vi"/>
 		<Item Name="Search.vi" Type="VI" URL="../API/Search.vi"/>
 		<Item Name="Set IP.vi" Type="VI" URL="../API/Set IP.vi"/>
 		<Item Name="Setup.vi" Type="VI" URL="../API/Setup.vi"/>
 		<Item Name="Start.vi" Type="VI" URL="../API/Start.vi"/>
 		<Item Name="Stop.vi" Type="VI" URL="../API/Stop.vi"/>
+		<Item Name="Update Progress Bar.vi" Type="VI" URL="../API/Update Progress Bar.vi"/>
 		<Item Name="Update UI.vi" Type="VI" URL="../API/Update UI.vi"/>
 		<Item Name="Wait.vi" Type="VI" URL="../API/Wait.vi"/>
 	</Item>
@@ -41,16 +43,18 @@
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Flush Queue.vi" Type="VI" URL="../Private VIs/Flush Queue.vi"/>
+		<Item Name="IntroScreen.vi" Type="VI" URL="../Private VIs/IntroScreen.vi"/>
 	</Item>
 	<Item Name="Public Controls" Type="Folder">
 		<Item Name="Config.ctl" Type="VI" URL="../Public Controls/Config.ctl"/>
 		<Item Name="IP Address Response Type Def.ctl" Type="VI" URL="../../Controller/Public Controls/IP Address Response Type Def.ctl"/>
+		<Item Name="IP Stats.ctl" Type="VI" URL="../../Controller/Public Controls/IP Stats.ctl"/>
 		<Item Name="Module Data Cluster.ctl" Type="VI" URL="../Public Controls/Module Data Cluster.ctl"/>
+		<Item Name="Progress Bar Control.ctl" Type="VI" URL="../Public Controls/Progress Bar Control.ctl"/>
+		<Item Name="Progress Bar State.ctl" Type="VI" URL="../Public Controls/Progress Bar State.ctl"/>
 	</Item>
 	<Item Name="Public VIs" Type="Folder">
 		<Item Name="Two Button Dialog.vi" Type="VI" URL="../Public Controls/Two Button Dialog.vi"/>
 	</Item>
-	<Item Name="IP Stats.ctl" Type="VI" URL="../../Controller/Public Controls/IP Stats.ctl"/>
-	<Item Name="Post Responses.vi" Type="VI" URL="../API/Post Responses.vi"/>
 	<Item Name="UI Top Level.vi" Type="VI" URL="../UI Top Level.vi"/>
 </Library>
